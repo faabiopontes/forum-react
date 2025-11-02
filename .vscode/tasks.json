@@ -1,0 +1,21 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Vite",
+      "type": "shell",
+      "command": "npm run dev",
+    },
+    {
+      "label": "Start server",
+      "type": "shell",
+      "command": "sudo php artisan serve --port=80",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+  ]
+}
