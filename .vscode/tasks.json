@@ -11,7 +11,7 @@
     {
       "label": "Start server",
       "type": "shell",
-      "command": "sudo php artisan serve --port=80",
+      "command": "sudo php artisan serve --port=8080",
       "group": {
         "kind": "build",
         "isDefault": true
